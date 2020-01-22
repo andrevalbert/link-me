@@ -55,12 +55,30 @@ text-decoration: none;
 color: white;
 font-size: 20px;
 }
+.link:hover {
+    text-decoration: none;
+    color: #f39c12;
+    font-size: 25px;
+/* As tag com nome ":hover" é para quando ocorrer uma ação no texto ou imagem. */
+}
 .text{
 font-size: 30px;
 }
 .sombra{
 text-shadow: 1px 2px black;
 }
+.space-margin{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
 
 
     /* SÃO TAGS ANTIGAS */
@@ -79,13 +97,6 @@ margin-right: 45px;
     border-radius: 55%;
     width: 30%;
     border: 5px  solid white; */
-
-/* .link:hover {
-    text-decoration: none;
-    color: #f39c12;
-    font-size: 25px;
-As tag com nome ":hover" é para quando ocorrer uma ação no texto ou imagem.
-} */
 
 /* .btn{
  border: 1px solid transparent;
@@ -115,7 +126,8 @@ font-weight: 500;
 /* faz a imagem caber na tela. dimensão da tela */
 /* -webkit-background-size: cover;
 -moz-background-size: cover;
--moz-background-size: cover; */ */
+-moz-background-size: cover; */
+
 /* text-align: center;
 color: white;
 height: 100% */

@@ -34,19 +34,44 @@
     </figure>
     <p class="text sombra" >Blog de conteudos da área de Tecnologias.</p>
     <div class="row">
-        <div class="col-md-4 col-sm-12 space">
+        <div class="col-md-3 col-sm-12 space">
             <a class="btn btn-light btn-block" href="https://t.me/visaoemti" target="_blank"><i class="fab fa-telegram"></i> Telegram</a>
         </div>
-        <div class="col-md-4 col-sm-12 space">
+        <div class="col-md-3 col-sm-12 space">
             <a class="btn btn-light btn-block" href="https://github.com/andrevalbert" target="_blank"> <i class="fab fa-github"></i>GitHub</a>
         </div>
-        <div class="col-md-4 col-sm-12 space">
+        <div class="col-md-3 col-sm-12 space">
             <a class="btn btn-light btn-block" href="https://www.facebook.com/visaoemti" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+        </div>
+        <div class="col-md-3 col-sm-12 space">
+            <button type="button" class="btn btn-light btn-block" data-toggle="modal" data-target="#telaemail">
+                <i class="far fa-envelope"></i> Envie uma mensagem 
+              </button>
         </div>
     </div>
 </div>
 
 </header>
+<!-- Modal -->
+<div class="modal fade" id="telaemail" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Digite sua mensagem</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <input type="email" class="form-control space-margin" id="emailTxt" placeholder="Digite seu email">
+            <textarea class="form-control" id="areaTxt" rows="3" placeholder="Escreva sua mensagem"></textarea>  
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-block btn-primary" data-dismiss="modal"> Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
