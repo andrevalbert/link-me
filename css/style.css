@@ -1,0 +1,77 @@
+body{
+    background-image: url('../images/bg.jpg');
+    /* colocar a imagem no fundo da tela. */
+background-repeat: no-repeat;
+/* não multiplica a imagem no fundo da tela. */
+background-size: cover;
+/* faz a imagem caber na tela. dimensão da tela */
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-moz-background-size: cover;
+
+text-align: center;
+color: white;
+}
+.profile {
+    border-radius: 55%;
+    width: 30%;
+    border: 5px  solid white;
+}
+.text{
+font-size: 30px;
+}
+.link{
+text-decoration: none;
+color: white;
+font-size: 20px;
+}
+.link:hover {
+    text-decoration: none;
+    color: #f39c12;
+    font-size: 25px;
+/* As tag com nome ":hover" é para quando ocorrer uma ação no texto ou imagem. */
+}
+.sombra{
+text-shadow: 1px 2px black;
+}
+.textefeito{
+    text-decoration: none;
+    color: #f39c12;
+    font-size: 25px;
+}
+.space{
+margin-right: 30px;
+}
+.btn{
+ border: 1px solid transparent;
+ padding: .375rem .75rem;
+ border-radius: .25rem;
+ background-color: turquoise;
+border-color: turquoise;
+color: turquoise;
+text-decoration: nome;
+font-size: 25px;
+opacity: 0.8;
+}
+
+.btn:hover{
+opacity: 1;
+font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* }
+.size-img{
+    width: 30%;
+} */
