@@ -7,7 +7,7 @@ function enviar () {
 //   console.log(areaValue);
 //   A variavel database vai recer as funções de acesso ao banco de dados.
   var database = firebase.database();
-  database.ref(timetamp).set({
+  database.ref(timestamp).set({
       email:emaliValue,
       mensagem:areaValue
   });
