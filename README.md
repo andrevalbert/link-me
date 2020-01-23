@@ -9,7 +9,8 @@
  - HTML.
  - CSS.
  - JavaScript.
- - Bootstrap Firebase - Para enviar as mensagens.
+ - Bootstrap 
+ - Firebase
  - Google Fonts.
  - Google Analytics.
 
